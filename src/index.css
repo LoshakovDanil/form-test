@@ -1,0 +1,20 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  background-color: rgb(224, 222, 219);
+  font-size: 25px;
+}
+.form-container {
+  width: 100%;
+  max-width: 400px; 
+  padding: 20px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
